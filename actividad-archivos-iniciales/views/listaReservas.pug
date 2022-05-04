@@ -1,0 +1,17 @@
+extends layout
+
+block content 
+    h1 Listado de reservaciones
+    table.table 
+        thead  
+            tr 
+                th ID Reserva
+                th Inicio
+                th Fin   
+        tbody 
+            each reserva in reservaciones
+                tr
+                    td=reserva._id
+                    td=reserva.desde
+                    td=reserva.hasta
+    a(href='/') Home
