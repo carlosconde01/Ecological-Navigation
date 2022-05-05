@@ -20,13 +20,13 @@ Con el proyecto en ejecución, usar el comando: npm run mochatest
 5. Abrir el correo electrónico y utilizar la liga recibida para verificar la cuenta.
 
 ## Inicio de sesión
-1. Acceder a la sección de iniciar sesión desde el menú principal 
-IMPORTANTE: Si el usuario ya ha inciado sesión esa opción estará oculta
-2. Introducir correo, contraseña y dar click en iniciar sesión
+1. Acceder a la sección de iniciar sesión desde el menú principal <br/>
+IMPORTANTE: Si el usuario ya ha inciado sesión esa opción estará oculta <br/>
+2. Introducir correo, contraseña y dar click en iniciar sesión <br/>
 IMPORTANTE: Sólo podrán iniciar sesión usuarios que hayan sido verificados. Si Ethereal no se encuentra en funcionamiento es posible editar el campo verificado del usuario en cuestión a través de MongoDB Compass.
 
 ## Cierre de sesión
-1. Con sesión iniciada, dar click en el botón de cerrar sesión del menú principal
+1. Con sesión iniciada, dar click en el botón de cerrar sesión del menú principal <br/>
 IMPORTANTE: Si el botón de cerrar sesión no se visualiza, significa que está oculto pues el usuario no ha iniciado sesión
 
 ## Nueva bicicleta
@@ -35,12 +35,14 @@ IMPORTANTE: Si el botón de cerrar sesión no se visualiza, significa que está 
 3. Dar click en Add
 
 ## Consultar reservaciones
-1. Con sesión iniciada, seleccionar la opción de consultar reservaciones desde el menú principal
+1. Con sesión iniciada, seleccionar la opción de consultar reservaciones desde el menú principal <br/>
+IMPORTANTE: En caso de no haber iniciado sesión, se despliega un mensaje indicando que se requiere iniciar sesión para acceder a esta funcionalidad
 
 ## Reservar bicicleta
 1. Con sesión iniciada, seleccionar la opción de reservar bicicleta desde el menú principal
 2. Introducir el código de la bicicleta a reservar, el inicio y el fin de la reservación.
-3. Dar click en Reservar 
+3. Dar click en Reservar <br/>
+IMPORTANTE: En caso de no haber iniciado sesión, se despliega un mensaje indicando que se requiere iniciar sesión para acceder a esta funcionalidad
 
 ## Extra
 

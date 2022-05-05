@@ -21,8 +21,6 @@ exports.reserva_get = function (req, res) {
 
 }
 
-
-
 exports.reserva_post = function (req, res) {
     Bicicleta.findOne({ code: req.body.code }).then(function (bici) {
         Reserva.find({ bicicleta: bici._id }).then(function (reservas) {
@@ -54,11 +52,7 @@ function validateDates(req, reservas) {
                 //Sí se superpone
                 console.log('sí se superpone')
                 flag = true
-
-
             }
-
-
 
             // if (((start <= comparaStart) && (end >= comparaStart)) || ((start <= comparaEnd) && (end >= comparaEnd))) {
             //     flag = true
